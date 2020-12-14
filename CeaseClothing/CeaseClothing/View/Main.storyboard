@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZOt-Qa-hhl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Table View Controller-->
+        <scene sceneID="236-Sd-UrL">
+            <objects>
+                <tableViewController id="dhV-38-QHt" customClass="HomeTableViewController" customModule="CeaseClothing" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="9Vm-bx-MYW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <connections>
+                            <outlet property="dataSource" destination="dhV-38-QHt" id="e98-Nn-CgC"/>
+                            <outlet property="delegate" destination="dhV-38-QHt" id="M1W-cJ-0hd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="EiR-76-3cw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oz6-mR-f6e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2326.0869565217395" y="69.642857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w7E-1C-6xS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZOt-Qa-hhl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2kC-HE-XNL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dhV-38-QHt" kind="relationship" relationship="rootViewController" id="tMU-cG-6Rc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BX3-1P-vul" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1415.9420289855072" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+</document>

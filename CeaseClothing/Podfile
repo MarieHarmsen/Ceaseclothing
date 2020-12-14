@@ -1,0 +1,13 @@
+target 'CeaseClothing' do
+  use_frameworks!
+  pod 'SDWebImage', '~> 4.0'
+  pod 'SnapKit', '~> 5.0.0'
+
+  target 'CeaseClothingTests' do
+    inherit! :search_paths
+  end
+
+  target 'CeaseClothingUITests' do
+  end
+
+end

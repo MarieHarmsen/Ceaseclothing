@@ -1,0 +1,13 @@
+"Title.AppName" = "Cease clothing";
+"Error.GenericError" = "Mismatching socks ! An error occured, please try again later.";
+"Loading" = "Loading...";
+"Item.Description" = "Description of the product";
+
+//MARK: Credits
+"Credits" = "Credits";
+"Credits.Title" = "Credits - Marie Harmsen";
+"creditListOne" = "Placeholder image: https://icon-library.com/icon/placeholder-image-icon-21.html";
+"creditListTwo" = "Error screen image (mismatching socks): https://www.flaticon.com/free-icon/socks_939209?related_item_id=939271&term=socks";
+"creditListThree" = "Loading screen image (change room): https://www.flaticon.com/free-icon/changing-room_1861781?related_item_id=1861781&term=change%20rooms";
+"creditListFour" = "Logo and app icon: https://www.flaticon.com/free-icon/bowtie_3902604?term=bowtie&page=1&position=54&related_item_id=3902604";
+

@@ -1,0 +1,6 @@
+framework module Pods_CeaseClothingTests {
+  umbrella header "Pods-CeaseClothingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
